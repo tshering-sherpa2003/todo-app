@@ -84,5 +84,8 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }, 1000); // Check every second
   }
+  /* to save on local storage  */
+    saveToLocalStorage(todoText);
+
   
 });
